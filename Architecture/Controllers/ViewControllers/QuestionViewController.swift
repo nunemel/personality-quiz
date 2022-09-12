@@ -26,9 +26,9 @@ final class QuestionViewController: UIViewController {
     
     @IBOutlet weak private var submitMultipleButton: UIButton!
     
-    var currentQuestion: Question?
-    var answersChosen: [Answer] = []
-    var currentAnswers: [Answer] = []
+    private var currentQuestion: Question?
+    private var answersChosen: [Answer] = []
+    private var currentAnswers: [Answer] = []
     
     // MARK: - Lifecycle
     override func viewDidLoad() {
